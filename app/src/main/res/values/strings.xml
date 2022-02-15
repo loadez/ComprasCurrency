@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ComprasCurrency</string>
+    <string name="calcular_valor_real">Calcular valor Real</string>
 </resources>
