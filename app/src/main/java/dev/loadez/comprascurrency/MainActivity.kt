@@ -17,7 +17,9 @@ class MainActivity : AppCompatActivity() {
             val value: Float? = text.toFloatOrNull()
 
             if(value!=null){
-                val intent = Intent()
+                val intent = Intent(this,ResultActivity::class.java)
+                intent.putExtra("value",value)
+                startActivity(intent)
             }
         }
     }
