@@ -3,4 +3,6 @@
     <string name="calcular_valor_real">Calcular valor Real</string>
     <string name="requisitando_valores_da_api">Requisitando valores da api...</string>
     <string name="voltar">Voltar</string>
+    <string name="digite_um_valor_de_compra_de_bitcoin_para_ser_cunsultado_na_api">Digite um valor de compra de Bitcoin para ser cunsultado na api</string>
+    <string name="image_of_bitcoin">Image of bitcoin</string>
 </resources>

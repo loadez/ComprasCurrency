@@ -9,6 +9,7 @@
     <LinearLayout
         android:layout_width="409dp"
         android:layout_height="wrap_content"
+        android:dividerPadding="8sp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -19,8 +20,16 @@
         <ImageButton
             android:id="@+id/imageButton"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="157dp"
+            android:background="#00FFFFFF"
+            android:contentDescription="@string/image_of_bitcoin"
             app:srcCompat="@mipmap/img_bitcoin_foreground" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/digite_um_valor_de_compra_de_bitcoin_para_ser_cunsultado_na_api" />
 
         <EditText
             android:id="@+id/editTextNumber"
@@ -28,7 +37,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="number|numberDecimal"
-            android:numeric="decimal" />
+            android:numeric="decimal"
+            android:importantForAutofill="no" />
 
         <Button
             android:id="@+id/button"
