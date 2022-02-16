@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
 
         findViewById<Button>(R.id.button).setOnClickListener {
             val text:String = findViewById<TextView>(R.id.editTextNumber).text.toString()
-            val value: Float? = text.toFloatOrNull()
+            val value: Double? = text.toDoubleOrNull()
 
             if(value!=null){
                 val intent = Intent(this,ResultActivity::class.java)
